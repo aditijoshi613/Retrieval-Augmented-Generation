@@ -34,7 +34,7 @@ This project enhances LLM performance using **Retrieval-Augmented Generation (RA
 ### 6. **Compilation of Results**
 - The results are compiled and presented in a **dataframe** format, with relevant policy documents and generated answers. Below is a screenshot of the result compilation:
 
-![Results Compilation](./screenshots/results_compilation.png)
+![Results Compilation](results_compilation.png)
 
 ---
 
