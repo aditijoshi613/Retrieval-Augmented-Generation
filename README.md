@@ -29,7 +29,7 @@ This project enhances LLM performance using **Retrieval-Augmented Generation (RA
 - Another level of query expansion is implemented by breaking down customer queries into multiple subqueries, further enhancing the ability to retrieve pertinent information.
 
 
-### 6. **Re-ranking of relevant documents using a Cross Encodern**
+### 6. **Re-ranking of relevant documents using a Cross Encoder**
 - Retrieved documents are reranked using a Cross Encoder for providing better context to the LLM.
 
 ### 7. The results are compiled and presented in a **dataframe** format, with relevant policy documents and generated answers. Below is a screenshot of the result compilation:
