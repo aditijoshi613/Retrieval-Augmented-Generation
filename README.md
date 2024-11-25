@@ -28,7 +28,11 @@ This project enhances LLM performance using **Retrieval-Augmented Generation (RA
 ### 5. **Query Expansion via Subquery Generation**
 - Another level of query expansion is implemented by breaking down customer queries into multiple subqueries, further enhancing the ability to retrieve pertinent information.
 
-### 6. The results are compiled and presented in a **dataframe** format, with relevant policy documents and generated answers. Below is a screenshot of the result compilation:
+
+### 6. **Re-ranking of relevant documents using a Cross Encodern**
+- Retrieved documents are reranked using a Cross Encoder for providing better context to the LLM.
+
+### 7. The results are compiled and presented in a **dataframe** format, with relevant policy documents and generated answers. Below is a screenshot of the result compilation:
 
 ![Results Compilation](results_compilation.png)
 
@@ -37,8 +41,7 @@ This project enhances LLM performance using **Retrieval-Augmented Generation (RA
 ## Ongoing Improvements
 
 1. Conduct analysis on multiple queries and evaluate the framework using the RAGAS metrics
-2. **Re-Ranking**: Enhance the retrieval process by re-ranking results based on relevance.
-3. **Dense Passage Retrieval**: Implement Dense Passage Retrieval (DPR) for better performance in finding relevant document chunks using dense embeddings.
+2. **Dense Passage Retrieval**: Implement Dense Passage Retrieval (DPR) for better performance in finding relevant document chunks using dense embeddings.
 4. Enhancing the framework to accomodate any credit card policy
 
 ---
